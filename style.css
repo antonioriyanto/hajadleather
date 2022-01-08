@@ -13,6 +13,9 @@
   line-height: 25px;
 }
 
+.nav-link:hover {
+  color: #444444;
+}
 .nav {
   margin-left: 50px;
   font-family: Nunito Sans;
@@ -278,6 +281,10 @@
   background-color: #000000;
 }
 
+.judul-footer:hover {
+  color: #444444;
+}
+
 .logo-footer {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -343,6 +350,10 @@
   line-height: 22px;
 
   color: #ffffff;
+}
+
+.sub-judul-footer:hover {
+  color: #444444;
 }
 
 .sub-judul-footer {
@@ -464,4 +475,310 @@
   font-size: 19px;
   line-height: 26px;
   color: #000000;
+}
+
+/* Halaman Kontak */
+
+.judul-kontak {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+  letter-spacing: 0.11em;
+  color: #000000;
+}
+
+.sub-kontak {
+  text-decoration: underline #ffffff;
+  text-decoration-color: #ffffff;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.ikon-kontak {
+  padding-right: 20px;
+}
+
+.teks-kontak {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+
+/* Halaman Login */
+.masuk-section {
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+.form-check-label {
+  text-decoration: none;
+  text-decoration-color: none;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 275;
+  line-height: 27px;
+  color: #000000;
+}
+.lupapassword {
+  margin-left: 20px;
+  text-decoration: none;
+  text-decoration-color: none;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 275;
+  line-height: 27px;
+  color: #000000;
+}
+.kotak-email {
+  margin-top: 20px;
+  width: 500px;
+  height: 60px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 38px;
+  color: #c5c5c5;
+}
+
+.kotak-password {
+  margin-top: 20px;
+  width: 500px;
+  height: 60px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 38px;
+  color: #c5c5c5;
+}
+.atau-login {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.login-dengan {
+}
+
+/* Halaman Produk */
+.produk-section {
+  margin-top: 100px;
+}
+
+.produk-secondary {
+  padding: 15px;
+}
+
+.produk-harga {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.produk-nama {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.produk-judul {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.produk-teks {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.tombol-produk {
+  padding-top: 50px;
+  padding-right: 30px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 33px;
+  /* identical to box height */
+  color: #000000;
+}
+
+/* halaman cart */
+.judul-cart {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 38px;
+  letter-spacing: 0.23em;
+  color: #000000;
+}
+
+.item-cart {
+  margin-top: 20px;
+}
+
+.nama-produk {
+  padding-left: 20px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  letter-spacing: 0.23em;
+  color: #000000;
+}
+
+.nama-produk span {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  letter-spacing: 0.23em;
+  color: #000000;
+}
+
+.tombol-cart {
+  padding: 20px;
+}
+
+.nota-cart {
+  background-color: #fafafa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.isi-nota {
+  padding: 40px;
+}
+
+.judul-nota {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.nota-banyak {
+}
+
+.nota-produk {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  color: #000000;
+}
+
+.nota-produk span {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: #636363;
+}
+
+.nota-harga {
+  padding-left: 150px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+hr.solid {
+  margin-top: -5px;
+  border-top: 3px solid #d0d0d0;
+}
+
+hr.solid-jumlah {
+  border-top: 3px solid #000000;
+}
+
+.nota-dompet {
+  margin-left: 117px;
+}
+
+.nota-talimasker {
+  margin-left: 73px;
+}
+
+.nota-gantunganstnk {
+  margin-left: 15px;
+}
+
+.nota-harga-jumlah {
+  padding-left: 205px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.dompet {
+  margin-left: 95px;
+}
+
+.tali-masker {
+  margin-left: 83px;
+}
+
+.gantungan-stnk {
+  margin-left: 20px;
+}
+
+.gantungan-korek {
+  margin-left: 5px;
+}
+
+.gantungan-konci {
+  margin-left: 10px;
+}
+
+.keranjang-belanja {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.tombol-cart-kembali {
+  padding-right: 35px;
+}
+
+.tombol-cart-kembali-konfirmasi {
+  margin-bottom: 100px;
 }
