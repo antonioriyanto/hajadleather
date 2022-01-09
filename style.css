@@ -245,7 +245,6 @@
 /* cara berbelanja */
 
 .cara-berbelanja {
-  margin-left: 100px;
   margin-bottom: 100px;
 }
 
@@ -388,7 +387,12 @@
   padding-top: 5rem;
   color: #ffffff;
 }
-
+.link-white {
+  color: #ffffff;
+}
+.link-white:hover {
+  color: #444444;
+}
 .rempahan-dropdown {
   margin-top: 100px;
   text-decoration: none;
@@ -396,6 +400,23 @@
 
 .dropdown-kategori {
   padding-left: 18em;
+}
+
+.tombol-dropdown-kategori {
+  padding: 5px 20px 5px 20px;
+  border: 1.5px solid #000000;
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
 }
 
 .baris {
@@ -565,8 +586,6 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.login-dengan {
-}
 
 /* Halaman Produk */
 .produk-section {
@@ -667,7 +686,7 @@
 }
 
 .tombol-cart {
-  padding: 20px;
+  padding: 0 20px 0 20px;
 }
 
 .nota-cart {
@@ -687,9 +706,6 @@
   /* identical to box height */
   letter-spacing: 0.1em;
   color: #000000;
-}
-
-.nota-banyak {
 }
 
 .nota-produk {
@@ -751,23 +767,23 @@ hr.solid-jumlah {
 }
 
 .dompet {
-  margin-left: 95px;
+  margin-left: 0px;
 }
 
 .tali-masker {
-  margin-left: 83px;
+  margin-left: 0px;
 }
 
 .gantungan-stnk {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .gantungan-korek {
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 .gantungan-konci {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 .keranjang-belanja {
@@ -781,4 +797,599 @@ hr.solid-jumlah {
 
 .tombol-cart-kembali-konfirmasi {
   margin-bottom: 100px;
+}
+
+/* Halaman Shipping */
+.judul-form {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  /* identical to box height */
+  color: #707070;
+}
+
+.col-auto {
+  padding-top: 20px;
+}
+.nama-penerima {
+  width: 320px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.no-telepon {
+  width: 250px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.kota-kecamatan {
+  width: 405px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.kode-pos {
+  width: 150px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.alamat-lengkap {
+  width: 600px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  /* identical to box height */
+  color: #000000;
+}
+
+hr.solid-shipping {
+  margin-left: 10px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-top: 3px solid #000000;
+  width: 600px;
+}
+
+.judul-pilihkurir {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  /* identical to box height */
+  color: #707070;
+}
+
+.pengiriman-kurir {
+  margin-left: 10px;
+  width: 600px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.jenis-kurir {
+  padding-top: 25px;
+}
+
+.shipping-berat {
+  padding-left: 150px;
+}
+
+.shipping-harga {
+  padding-left: 50px;
+}
+
+.shipping-hari {
+  padding-left: 50px;
+}
+
+.shipping-ceklis {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+hr.garis-kurir {
+  border: 1.5px solid #ececec;
+  margin-bottom: -10px;
+}
+
+.kurir-sicepat {
+  padding-bottom: 20px;
+}
+
+.tombol-konfirmasi-payment {
+  border: none;
+  width: 242px;
+  height: 52px;
+  background: #ff8a00;
+  border-radius: 32px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.tombol-modal-kembali {
+  border: none;
+  background: #ff8a00;
+  border-radius: 24px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
+.tombol-modal-tutup {
+  border: 1px solid #a6a6a6;
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  /* identical to box height */
+  text-align: center;
+  color: #a6a6a6;
+}
+
+/* Halaman Akun User */
+.account-user {
+  margin-top: -17px;
+}
+.sidebar-akun {
+  background-color: #f5f5f5;
+  width: 300px;
+  height: 1000px;
+}
+
+.daftar-menu {
+  padding-top: 30px;
+  padding-left: 70px;
+}
+.ikon-akun {
+  padding-right: 10px;
+}
+
+.akun-user {
+  text-decoration: none;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.akun-user:hover {
+  color: #444444;
+}
+
+.list-menu {
+  text-decoration: none;
+  border: none;
+  color: #f5f5f5;
+}
+
+.list-group-item {
+  background-color: #f5f5f5;
+}
+
+/* isi menu akun */
+.isi-menu-akun {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.judul-isi-menu {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.23em;
+
+  color: #000000;
+}
+
+.personal-image {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.personal-image input[type="file"] {
+  display: none;
+}
+.personal-figure {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+.personal-avatar {
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out 0.3s;
+}
+.personal-avatar:hover {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+.personal-figcaption {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  width: inherit;
+  height: inherit;
+  border-radius: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all ease-in-out 0.3s;
+}
+.personal-figcaption:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.personal-figcaption > img {
+  margin-top: 32.5px;
+  width: 50px;
+  height: 50px;
+}
+
+.nama-pengguna {
+  width: 230px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.alamat-surel {
+  width: 330px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.nama-lengkap {
+  width: 310px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.alamat-pengiriman-user {
+  margin-top: 40px;
+}
+
+.tombol-user-akun {
+  margin-top: 45px;
+}
+
+.tombol-simpan-user {
+  margin-left: 30px;
+}
+
+/* Halaman Pemesanan */
+.isi-pemesanan {
+  padding-left: 50px;
+}
+
+.judul-pemesanan {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.status-pembayaran {
+  padding-left: 200px;
+}
+
+.status-pemrosesan {
+  padding-left: 80px;
+}
+
+.no-resi {
+  padding-left: 50px;
+}
+
+hr.batas-judul-pesanan {
+  border-top: 3px solid #0c0c0c;
+  margin-left: 50px;
+  margin-top: -5px;
+}
+
+.kode-pesanan {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.items-pesanan {
+  margin-left: 50px;
+}
+
+.nama-item-pesanan {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.nama-item-pesanan span {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.pembayaran-lunas {
+  margin-left: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.pemrosesan-selesai {
+  margin-left: 200px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.no-resi-input {
+  margin-left: 160px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+hr.batas-items-pesanan {
+  border-top: 1px solid #0c0c0c;
+  margin-left: 50px;
+}
+
+.pemrosesan-dikirim {
+  margin-left: 200px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.no-resi-input-dikirim {
+  margin-left: 70px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.batas-items-pesanan-akhir {
+  margin-top: 20px;
+}
+
+/* Admin */
+
+.produk-admin {
+  padding-right: 20px;
+}
+
+.produk-admin input[type="file"] {
+  display: none;
+}
+
+.gambar-produk-admin {
+  cursor: pointer;
+}
+
+.nama-produk {
+  margin-right: 40px;
+  width: 300px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.harga-produk-admin {
+  width: 300px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.keterangan-produk-admin {
+  margin-left: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.judul-keterangan-produk-admin {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  /* identical to box height */
+  color: #707070;
+}
+
+.teks-keterangan-produk {
+  margin-top: 10px;
+}
+
+.tombol-admin-produk {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.ikon-admin-produk {
+  margin-left: 6px;
+  padding-right: 15px;
+}
+
+.ikon-halaman-admin {
+  margin-left: 6px;
+  padding-right: 13px;
+}
+
+.slider-carousel-admin {
+  width: 780px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 25px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.teks-slider {
+  width: 780px;
+}
+
+hr.pembatas-halaman-admin {
+  margin-top: 40px;
+  width: 780px;
+  border-top: 3px solid #000000;
+}
+
+.rekomendasi-produk-admin [type="file"] {
+  display: none;
+}
+
+.rekomendasi-produk-admin {
+  padding-right: 42px;
+}
+
+.gambar-rekomendasi-produk-admin {
+  cursor: pointer;
+}
+
+.form-control-color {
+  margin-top: 10px;
+  width: 300px;
+}
+.warna-tombol- {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  /* identical to box height */
+  color: #c5c5c5;
+}
+.warna-tombol-admin {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  /* identical to box height */
+  color: #707070;
+}
+
+.tombol-admin-halaman {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sidebar-akun-pages {
+  background-color: #f5f5f5;
+  width: 300px;
+  height: 1685px;
 }

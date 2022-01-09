@@ -10,7 +10,7 @@
     <link href="style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans" />
 
-    <title>Hajad Leather | Keranjang Belanja</title>
+    <title>Hajad Leather | Pengiriman</title>
     <link rel="icon" type="favicon" href="svg/favicon.ico">
   </head>
   <body>
@@ -36,13 +36,13 @@
           <a href="#" class="ikon-cari"><img href="#" src="svg/cari.svg" alt="#" /></a>
 
           <div class="dropdown text-end">
-            <a href="#" class="d-block link-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="svg/avatar.png" width="32" height="32" class="rounded-circle" />
             </a>
             <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-              <li><a class="dropdown-item" href="account-user.html">akun</a></li>
+              <li><a class="dropdown-item" href="#">akun</a></li>
               <li>
-                <a class="dropdown-item" href="cart.html"
+                <a class="dropdown-item" href="#"
                   >keranjang
                   <img src="svg/keranjang.svg" alt="" />
                 </a>
@@ -56,7 +56,7 @@
     </header>
     <!-- End Header -->
 <!-- jumbotron shop -->
-    <div class="jumbotron-header" style="background-image: url('jpg/jumbotron-kustom.jpg" ><h1 class="jumbotron-header-judul">KERANJANG BELANJA</h1></div>
+    <div class="jumbotron-header" style="background-image: url('jpg/jumbotron-kustom.jpg" ><h1 class="jumbotron-header-judul">PENGIRIMAN</h1></div>
 <!-- end jumbotron shop -->
 <section class="rempahan-dropdown">
 <div class="container">
@@ -65,7 +65,8 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Keranjang Belanja</li>
+              <li class="breadcrumb-item"><a href="cart.html">Keranjang Belanja</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Pengiriman</li>
             </ol>
           </nav>
       </div>
@@ -75,49 +76,68 @@
 
 <section class="keranjang-belanja">
     <div class="container">
-    <h2 class="judul-cart">KERANJANG BELANJA</h2>
+    <h2 class="judul-cart">PENGIRIMAN</h2>
         <div class="row">
             <div class="col-lg">
-                <div class="item-cart d-flex align-items-center">
-                <a href="#"><img src="jpg/cart-product-1.png" alt=""></a>
-                <h5 class="nama-produk">GANTUNGAN KUNCI <br> <span> IDR 25.000 </span> </h5>
-                <a href="#" class="tombol-cart gantungan-konci"><img src="svg/button-kurang-produk.svg" alt=""></a>
-                <h3>4</h3>
-                <a href="#" class="tombol-cart"><img src="svg/button-tambah-produk.svg" alt=""></a>
-                <a href="#" class="tombol-cart"><img src="svg/tombol-hapus-produk.svg" alt=""></a>
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <label for="NamaPenerima1" class="form-label judul-form">Nama Penerima</label>
+                        <input type="namapenerima" class="form-control nama-penerima" id="NamaPenerima1" placeholder="Nama kamu...">
+                    </div>
+                    <div class="col-auto">
+                        <label for="NoTelp1" class="form-label judul-form">No Telepon</label>
+                        <input type="notelepon" class="form-control no-telepon" id="NoTelp1" placeholder="No telpon kamu...">
+                    </div>
+                    <div class="col-auto">
+                        <label for="Kotakec1" class="form-label judul-form">Kota atau Kecematan </label>
+                        <input type="kotakecematan" class="form-control kota-kecamatan" id="Kotakec1" placeholder="Kota atau Kecamatan kamu...">
+                    </div>
+                    <div class="col-auto">
+                        <label for="KodePos1" class="form-label judul-form">Kode Pos</label>
+                        <input type="kodepos" class="form-control kode-pos" id="KodePos1" placeholder="Kode pos kamu...">
+                    </div>
+                    <div class="col-auto">
+                        <label for="Alamat1" class="form-label judul-form">Alamat</label>
+                        <input type="alamat" class="form-control alamat-lengkap" id="Alamat1" placeholder="Alamat lengkap kamu...">
+                    </div>
+                    <hr class="solid-shipping">
                 </div>
-                <div class="item-cart d-flex align-items-center">
-                    <a href="#"><img src="jpg/cart-product-2.png" alt=""></a>
-                    <h5 class="nama-produk">GANTUNGAN KOREK <br> <span> IDR 40.000 </span> </h5>
-                    <a href="#" class="tombol-cart gantungan-korek"><img src="svg/button-kurang-produk.svg" alt=""></a>
-                    <h3>2</h3>
-                    <a href="#" class="tombol-cart"><img src="svg/button-tambah-produk.svg" alt=""></a>
-                    <a href="#" class="tombol-cart"><img src="svg/tombol-hapus-produk.svg" alt=""></a>
-                 </div>
-                 <div class="item-cart d-flex align-items-center">
-                    <a href="#"><img src="jpg/cart-product-3.png" alt=""></a>
-                    <h5 class="nama-produk">GANTUNGAN STNK <br> <span> IDR 50.000 </span> </h5>
-                    <a href="#" class="tombol-cart gantungan-stnk"><img src="svg/button-kurang-produk.svg" alt=""></a>
-                    <h3>1</h3>
-                    <a href="#" class="tombol-cart"><img src="svg/button-tambah-produk.svg" alt=""></a>
-                    <a href="#" class="tombol-cart"><img src="svg/tombol-hapus-produk.svg" alt=""></a>
-                 </div>
-                 <div class="item-cart d-flex align-items-center">
-                    <a href="#"><img src="jpg/cart-product-4.png" alt=""></a>
-                    <h5 class="nama-produk">TALI MASKER <br> <span> IDR 15.000 </span> </h5>
-                    <a href="#" class="tombol-cart tali-masker"><img src="svg/button-kurang-produk.svg" alt=""></a>
-                    <h3>3</h3>
-                    <a href="#" class="tombol-cart"><img src="svg/button-tambah-produk.svg" alt=""></a>
-                    <a href="#" class="tombol-cart"><img src="svg/tombol-hapus-produk.svg" alt=""></a>
-                 </div>
-                 <div class="item-cart d-flex align-items-center">
-                    <a href="#"><img src="jpg/cart-product-5.png" alt=""></a>
-                    <h5 class="nama-produk">DOMPET     <br> <span> IDR 150.000 </span> </h5>
-                    <a href="#" class="tombol-cart dompet"><img src="svg/button-kurang-produk.svg" alt=""></a>
-                    <h3>1</h3>
-                    <a href="#" class="tombol-cart"><img src="svg/button-tambah-produk.svg" alt=""></a>
-                    <a href="#" class="tombol-cart"><img src="svg/tombol-hapus-produk.svg" alt=""></a>
-                 </div>
+            <div class="row">
+                <h6 class="judul-pilihkurir">Pilih Kurir Pengiriman</h5>
+                    <div class="pengiriman-kurir">
+                        <div class="col d-flex align-items-center align-middle jenis-kurir">
+                            <img src="jpg/shipping-anteraja.png" alt="">
+                            <h6 class="shipping-berat">3kg </h5>
+                            <h6 class="shipping-harga">Rp 54.000</h5>
+                            <h6 class="shipping-hari">2-4 Hari</h5>
+                            <input class="form-check-input shipping-ceklis" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                        <hr class="garis-kurir">
+                        <div class="col d-flex align-items-center align-middle jenis-kurir">
+                            <img src="jpg/shipping-jne.png" alt="">
+                            <h6 class="shipping-berat">3kg </h5>
+                            <h6 class="shipping-harga">Rp 54.000</h5>
+                            <h6 class="shipping-hari">1-2 Hari</h5>
+                            <input class="form-check-input shipping-ceklis" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                        <hr class="garis-kurir">
+                        <div class="col d-flex align-items-center align-middle jenis-kurir">
+                            <img src="jpg/shipping-jnt.png" alt="">
+                            <h6 class="shipping-berat">3kg </h5>
+                            <h6 class="shipping-harga">Rp 51.000</h5>
+                            <h6 class="shipping-hari">1-3 Hari</h5>
+                            <input class="form-check-input shipping-ceklis" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                        <hr class="garis-kurir">
+                        <div class="col d-flex align-items-center align-middle jenis-kurir kurir-sicepat">
+                            <img src="jpg/shipping-sicepat.png" alt="">
+                            <h6 class="shipping-berat">3kg </h5>
+                            <h6 class="shipping-harga">Rp 54.000</h5>
+                            <h6 class="shipping-hari">2-3 Hari</h5>
+                            <input class="form-check-input shipping-ceklis" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                    </div>
+            </div>
             </div>
             <div class="col-lg">
                 <div class="nota-cart">
@@ -149,8 +169,13 @@
                         </div>
                         <hr class="solid-jumlah">
                         <div class="nota-banyak d-flex align-items-center">
-                            <h5 class="nota-produk">TOTAL JUMLAH <br> <span>11 ITEM</span></h5>
-                            <h4 class="nota-harga-jumlah"> IDR 425.000</h5>
+                            <h5 class="nota-produk">ONGKOS KIRIM<br> <span>3Kg</span></h5>
+                            <h4 class="nota-harga-jumlah"> IDR 54.000</h5>
+                        </div>
+                        <hr class="solid-jumlah">
+                        <div class="nota-banyak d-flex align-items-center">
+                            <h5 class="nota-produk">TOTAL JUMLAH <br> <span>11 ITEM | 3Kg</span></h5>
+                            <h4 class="nota-harga-jumlah"> IDR 479.000</h5>
                         </div>
                     </div>
                 </div>
@@ -160,8 +185,8 @@
 </section>
 
 <div class="tombol-cart-kembali-konfirmasi container d-flex align-items-center">
-    <div class="tombol-cart-kembali"><a href="product.html"><img src="svg/tombol-cart-kembali.svg" alt=""></a></div>
-    <div class="tombol-cart-konfirmasi"><a href="shipping.html"><img src="svg/tombol-cart-konfirmasi.svg" alt=""></a></div>
+    <div class="tombol-cart-kembali"><a href="cart.html"><img src="svg/tombol-cart-kembali.svg" alt=""></a></div>
+    <div class="tombol-cart-konfirmasi"><a href="payment.html"><img src="svg/tombol-cart-konfirmasi.svg" alt=""></a></div>
 </div>
 
 <!-- Akhir Section Produk -->
